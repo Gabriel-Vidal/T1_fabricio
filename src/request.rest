@@ -1,0 +1,28 @@
+POST http://localhost:3000/api/user
+Content-Type: application/json
+
+{
+    "user": "user",
+    "senha":"senha",
+    "funcao": "funcao"
+
+}
+
+###
+GET http://localhost:3000/api/user
+
+###
+GET http://localhost:3000/api/user/66213ab5b0e3b8210e15e05f
+
+###
+DELETE http://localhost:3000/api/user/66213ab5b0e3b8210e15e05f
+
+###
+PUT http://localhost:3000/api/user/66213ab5b0e3b8210e15e05f
+Content-Type: application/json
+
+{
+    "user": "teste",
+    "senha": "senha de teste",
+    "funcao": "funcao" 
+}
